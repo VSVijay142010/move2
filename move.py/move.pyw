@@ -13,7 +13,7 @@ for files in list_of_files:
     print(extension)
     if extension=='':
       continue
-    if extension in['.jpg',".heic",'.raw','.jpeg',".png",'.gif']:
+    if extension in['.txt',".doc",'.docx','.pdf']:
       path1=from_dir+'/'+files
       path3=to_dir+'/'+files
       shutil.move(path1,path3)
